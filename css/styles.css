@@ -1,0 +1,351 @@
+
+:root{
+  --primary-text-color: #434455;
+  --titli-text-color:#2E2F42 ;
+  --accent-color:#FFFFFF;
+  --second-bg-color:#F4F4FD;
+  --first-bg-color: #4D5AE5;
+  --bg-color:#404BBF;
+  --cecond-tx-color: #E7E9FC ;
+  --color-background-primary:#FFFFFF;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type:none ;
+}
+p,h1,h2,h3,h4,h5,h6{
+  margin-top: 0;
+}
+  
+
+body{
+  color:var(--primary-text-color) ;
+  background-color:var(--accent-color);
+  font-family:'Roboto',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.webstudio-stayll{
+  text-decoration:none ;
+  font-family:'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height:1.33; 
+  letter-spacing:0.03em;
+  text-transform: uppercase;
+  
+}
+.header{
+  padding: 72px 0px;
+}
+.header-web{
+  color:var(--first-bg-color);
+}
+.header-studio{
+  color: #000;
+}
+.container{
+  width: 100%;
+  min-width: 1158px;
+  margin: 0 auto;
+  padding: 0 282px ;
+ 
+}
+.header-container{
+  display: flex;
+  align-items: center;
+gap: 40px;
+}
+.header-nav{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 76px; ;
+}
+.header-menu{
+  display: flex;
+  gap: 40px;
+}
+.header-link:not(last-child){
+  text-decoration:none ;
+  color:var(--titli-text-color);
+   font-weight: 500;
+   font-size: 16px;
+   line-height:1.2;
+   margin-right: 40px;
+  
+}
+.header-link:hover,
+.header-link:focus {
+color:var(--bg-color);
+}
+.header-address:last-child{
+  text-decoration:none ;
+  color:var(--primary-text-color);
+   letter-spacing: 0.02em;
+   font-style: normal;
+   margin-right: 40px;
+   }
+.maim-stayl{
+  background-color:var(--titli-text-color) ;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
+  align-items: center;
+  padding: 188px 473px  ;
+}
+
+.main-title {
+  color:var(--accent-color);
+  font-weight: 494px;
+  height: 120px;
+  left: 473px;
+  top: 260px; 
+  font-size: 56px;
+  line-height:1.07;
+  letter-spacing:0.02em;
+  margin-bottom: 48px;
+  text-align: center;
+  font-style: normal;
+
+}
+.test-button {
+background-color:var(--first-bg-color);
+color:var(--cecond-tx-color);
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px, 32px;
+gap: 10px;
+
+width: 169px;
+height: 56px; ;
+left: 636px;
+top: 428px;
+box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-family:inherit;
+letter-spacing:0.04em;
+font-size:16px;
+line-height:1.5;
+}
+.services{
+  display: flex;
+  justify-content: center;
+}
+.test-button:hover,
+.test-button:focus {
+color: var(--accent-color);
+background-color: var(--bg-color);
+}
+.section{
+  padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.hidden-container{
+  display: flex;
+  gap: 40px;
+}
+.section-decor a {
+  text-decoration:none ;
+   display: flex;
+   gap: 24px;
+   flex-wrap: wrap;
+}
+.section-decor-ferst{
+ flex-basis:calc(100%/9) ;
+ 
+}
+.section-title{
+  color:var(--titli-text-color); 
+   font-weight: 500;
+   font-size: 20px;
+   line-height:1.2;
+   letter-spacing:0.02em;
+   margin: 0 auto;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   text-align: center;
+}
+.section-title-our{
+  color:var(--titli-text-color); 
+   font-weight: 500;
+   font-size: 20px;
+   line-height:1.2;
+   letter-spacing:0.02em;
+   margin: 0 auto;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.section-title-pfoto{
+  color:var(--titli-text-color); 
+   font-weight: 500;
+   font-size: 20px;
+   line-height:1.2;
+   letter-spacing:0.02em;
+   margin: 0 auto;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   
+}
+.section-text-pfoto{
+  color:var(--primary-text-color);
+  font-size: 16px;
+  line-height:1.5;
+  letter-spacing:0.02em;
+  width:164px ;
+  height:72px;
+  width: 264px;
+  height: 72px;
+  top: 152px;
+  flex: none;
+  flex-grow: 0;
+ order: 1;
+ 
+}
+.section-text-our{
+  color:var(--primary-text-color);
+ font-size: 16px;
+ line-height:1.5;
+ letter-spacing:0.02em;
+ width:164px ;
+ height:72px;
+ width: 264px;
+ height: 72px;
+ top: 152px;
+ flex: none;
+ flex-grow: 0;
+order: 1;
+}
+.section-text{
+ color:var(--primary-text-color);
+ font-size: 16px;
+ line-height:1.5;
+ letter-spacing:0.02em;
+ width:164px ;
+ height:72px;
+ width: 264px;
+ height: 72px;
+ top: 152px;
+ flex: none;
+ flex-grow: 0;
+order: 1;
+text-align: center;
+ 
+}
+.section-styl{
+  color:var(--titli-text-color);
+   font-weight: 700;
+   font-size: 36px;
+   line-height:1.33;
+   letter-spacing:0.02em;
+   text-align: center;
+   flex-grow: 0;
+   text-transform: capitalize;
+   
+
+}
+.doing-container{
+  display: flex;
+  gap: 40px;
+}
+.about-piple{
+  background-color:var(--second-bg-color);
+}
+.team-container{
+  display: flex;
+  gap: 24px;
+  
+}
+.section-team{
+  background-color:var(--second-bg-color); 
+padding: 120px 0;
+}
+ 
+.footer-stayl{
+  background-color:var(--titli-text-color);
+   gap: 300px;
+   width: 1440px;
+   height: 310px;
+   left: 0;
+   top: 2280px;
+   padding: 100px 0 ;
+}
+.section-fon{
+  background-color:var(--accent-color);
+}
+.webstudio-stayll{
+  color:var(--accent-color);
+   font-family:'Raleway', sans-serif;
+   font-weight: 800;
+   font-size: 18px;
+   line-height:1.16;
+   letter-spacing:0.03em;
+  width: 71px;
+  height: 22px;
+  
+}
+.footer-studio{
+  color:var(--accent-color);
+  
+}
+.footet-web {
+  color:var(--first-bg-color);
+}
+.footer-text  {
+  color:var(--cecond-tx-color) ;
+   font-size: 16px;
+   line-height:1.5;
+   letter-spacing:0.02em;
+   width: 264px;
+   height: 72px;
+   top: 152px;
+   flex: none;
+   flex-grow: 0;
+   
+}
+
+.button-secondary{
+  background-color:var(--second-bg-color);
+  color:var(--first-bg-color);
+  border-radius: 4px;
+   font-family:'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height:1.5;
+   cursor: pointer;
+}
+.button-secondary:hover,
+.button-secondary:focus{
+  background-color:var(--first-bg-color);
+  color: var(--accent-color);
+}
+.button-menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+  
+  
+  
+
+}
