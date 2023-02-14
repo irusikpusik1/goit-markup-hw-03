@@ -51,18 +51,16 @@ body{
   width: 100%;
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0 15px ;
+  padding: 15px ;
 }
 .container-section-fon{
   display: flex;
     max-width: 100%;
-    padding: 24px;
     gap: 24px;
 }
 .header-container{
   display: flex;
   align-items: center;
-gap: 40px;
 }
 .section-hider-our{
   flex-basis:calc((100%-72px)/4);
@@ -70,8 +68,10 @@ gap: 40px;
 .header-nav{
   display: flex;
   align-items: center;
-  flex-grow: 1;
   gap: 76px; ;
+}
+.address-all{
+  margin-left: auto;
 }
 .header-menu{
   display: flex;
@@ -139,7 +139,7 @@ color: var(--accent-color);
 background-color: var(--bg-color);
 }
 .section{
-  padding: 120px 0;
+ padding-top: 120px;
 }
 .visually-hidden {
   position: absolute;
@@ -155,7 +155,7 @@ background-color: var(--bg-color);
 }
 .hidden-container{
   display: flex;
-  gap: 40px;
+  gap: 24px;
 }
 .section-decor a {
   text-decoration:none ;
@@ -164,14 +164,15 @@ background-color: var(--bg-color);
 .section-decor{
   display: flex;
   flex-wrap: wrap;
-  max-width: 100%;
+  gap: 48px 24px;
   
 }
 .section-decor-ferst{
   flex-basis:calc((100% - 48px) / 3);
+  
 }
 .decor-pfoto{
-  border:32px 16px 32px 16px;
+  padding: 32px 16px ;
 }
 .section-title{
   color:var(--titli-text-color); 
@@ -229,7 +230,7 @@ text-align: center;
    letter-spacing:0.02em;
    text-align: center;
    text-transform: capitalize;
-   
+   margin-bottom: 72px;
 
 }
 .doing-container{
@@ -252,16 +253,21 @@ text-align: center;
 .section-team{
   background-color:var(--second-bg-color); 
 padding: 120px 0;
+
 }
  
 .footer-stayl{
   background-color:var(--titli-text-color);
 padding: 100px 0 ;
+margin-top: 100px;
    
 }
 .section-fon{
   background-color:var(--accent-color);
  flex-basis:calc((100%-72px)/4);
+ max-width: 100%;
+ height: auto;
+ display: block;
 }
 .total-info{
 text-align: center;
@@ -275,8 +281,6 @@ padding-bottom: 32px;
    font-size: 18px;
    line-height:1.16;
    letter-spacing:0.03em; 
-  
-
 }
 .footer-studio{
   color:var(--accent-color);
@@ -291,7 +295,7 @@ padding-bottom: 32px;
    line-height:1.5;
    letter-spacing:0.02em;
    width: 264px;  
-   padding:  18px 0;
+   margin-top: 16px;
 }
 
 .button-secondary{
@@ -322,10 +326,7 @@ padding-bottom: 32px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px 24px;
     gap: 24px;
-  
-  
-  
-
+    margin-bottom: 72px;
+    
 }
