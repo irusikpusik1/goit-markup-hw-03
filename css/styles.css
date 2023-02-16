@@ -15,7 +15,7 @@ ul{
   list-style-type:none ;
 }
 p,h1,h2,h3,h4,h5,h6{
-  margin-top: 8;
+  margin-top: 0;
   margin-bottom: 0px;
 }
   
@@ -113,7 +113,7 @@ color:var(--bg-color);
 
 .main-title {
   color:var(--accent-color);
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 56px;
   line-height:1.07;
   letter-spacing:0.02em;
@@ -132,7 +132,7 @@ font-size:16px;
 line-height:1.5;
 cursor: pointer;
 padding: 16px 32px;
-font-weight: 500px;
+font-weight: 500;
 border: 1px solid  #4655dd;
 }
 
@@ -142,8 +142,12 @@ color: var(--accent-color);
 background-color: var(--bg-color);
 }
 .section{
- padding-top: 120px;
- padding-bottom: 96px;
+ padding-top:  120px;
+ 
+}
+.secteon{
+  padding-top: 96px ;
+  padding-bottom: 120px;
 }
 .visually-hidden {
   position: absolute;
@@ -176,10 +180,7 @@ background-color: var(--bg-color);
   
 }
 .decor-pfoto{
-  padding: 32px 16px ;
-  border: left 16px; ;
-  border: right 209px; ;
-  border: bottom 64px; ;
+  padding:  32px 16px;
   border: 1px solid #E7E9FC;
 }
 .section-title{
