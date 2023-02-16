@@ -143,7 +143,11 @@ background-color: var(--bg-color);
 }
 .section{
  padding-top:  120px;
- 
+
+}
+.section-doing{
+  padding-top:  120px;
+  padding-bottom: 120px;
 }
 .secteon{
   padding-top: 96px ;
@@ -182,6 +186,7 @@ background-color: var(--bg-color);
 .decor-pfoto{
   padding:  32px 16px;
   border: 1px solid #E7E9FC;
+  border-top: none;
 }
 .section-title{
   color:var(--titli-text-color); 
@@ -214,6 +219,7 @@ background-color: var(--bg-color);
   font-size: 16px;
   line-height:1.5;
   letter-spacing:0.02em;
+  margin-top: 8px;
   
 }
 .section-text-our{
@@ -229,6 +235,7 @@ background-color: var(--bg-color);
  line-height:1.5;
  letter-spacing:0.02em;
 text-align: center;
+margin-top: 8px;
 
 }
 .section-styl{
@@ -245,6 +252,7 @@ text-align: center;
 .doing-container{
   display: flex;
   gap: 24px;
+  
 }
 .about-piple{
   background-color:var(--second-bg-color);
